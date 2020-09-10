@@ -1,0 +1,506 @@
+@charset "utf-8";
+/* CSS Document */
+
+html{
+	scroll-behavior: smooth;
+}
+.wrapper
+{
+	width: 1920px;
+	height: 100%;
+	background-color:aqua;
+	align-content: center;
+	overflow-x: scroll;
+	scroll-behavior: smooth;
+
+}
+.home 
+{
+    width: 1920px;
+    height: 900px;
+    background-image:url(../images/Untitled-1.jpg);
+
+}
+.homecontent
+{
+	width: 647px;
+    height: 226px;
+	margin-left: 1120px;
+	margin-top: 199px;
+	font-weight: bold;
+    font-size: 90px;
+    line-height: 112px;
+	font-family: roboto;
+	color: white;
+}
+.homecontent2
+{
+	width: 422px;
+    height: 55px;
+    margin-left: 1180px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 42px;
+    text-align: center;
+	color: #FFFFFF;
+}
+
+
+ul
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 1880px;
+	height: 100px;
+	list-style: none;
+	z-index: 100;
+	margin: 0 auto;
+	padding-top: 20px;
+	background-color: black
+
+		
+}
+
+ul li
+{
+	margin-right: 200px;
+	font-size: 36px;
+}
+
+ul li :hover 
+{
+    border-bottom-style:groove;
+    border-bottom-width: 5px;
+	background-color: black;
+}
+ul li a
+{
+	text-decoration: none;
+	color:white;
+	font-family: roboto;
+}
+
+.skill
+{
+	
+	width: 1920px;
+	height: 900px;
+	background-color: #2E2E2E;
+	
+
+}
+.skillheader
+{
+	width: 518px;
+    height: 82px;
+    margin-left: 700px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 72px;
+    line-height: 84px;
+    text-align: center;
+	color: #FFFFFF;
+	margin-bottom: 50px;
+	padding-top: 62px;
+}
+
+.skillcontent
+{
+	width: 324px;
+    height: 59px;
+    margin-left:  167px;
+	font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+	margin-top: 139px;
+    text-align: center;
+	color: #FFFFFF;
+}
+
+.skillcontent2
+{
+	width: 324px;
+    height: 59px;
+    margin-left:  202px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #FFFFFF;
+	margin-top: 106px;
+
+}
+
+.skillcontent3
+{
+	width: 324px;
+    height: 59px;
+    margin-left:  132px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #FFFFFF;
+	margin-top: 106px;
+}
+
+.skillcontent4
+{
+	width: 324px;
+    height: 59px;
+    margin-left:  1035px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #FFFFFF;
+	margin-top: -410px;
+	
+
+}
+.skillcontent5
+{
+	width: 324px;
+    height: 59px;
+    margin-left:  1070px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #FFFFFF;
+	margin-top: 106px;
+
+}
+.skiilcontent6
+{
+	width: 324px;
+    height: 59px;
+    margin-left:  1052px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    text-align:center;
+    color: #FFFFFF;
+	margin-top: 106px;
+
+}
+
+.rectangle
+{
+	width: 580px;
+    height: 8px;
+    margin-left:  245px;
+    background: #FFFFFF;
+    border-radius: 14px;
+}
+.smallrectangle
+{
+	width: 536px;
+    height: 8px;
+    margin-right:  245px;
+    background: #8F8F8F;
+    border-radius: 14px;
+}
+.rectangle2
+{
+	width: 580px;
+    height: 8px;
+    margin-left:  245px;
+    background: #FFFFFF;
+    border-radius: 14px;
+}
+.smallrectangle2
+{
+	width: 502px;
+    height: 8px;
+    margin-right:  545px;
+    background: #8F8F8F;
+    border-radius: 14px;
+	float: left;
+}
+
+.rectangle3
+{
+	width: 580px;
+    height: 8px;
+    margin-left:  245px;
+    background: #FFFFFF;
+    border-radius: 14px;
+}
+.smallrectangle3
+{
+	width: 508px;
+    height: 8px;
+    margin-right:  245px;
+    background: #8F8F8F;
+    border-radius: 14px;
+}
+
+.rectangle4
+{
+	width: 580px;
+    height: 8px;
+    margin-left:  1090px;
+    background: #FFFFFF;
+    border-radius: 14px;
+}
+.smallrectangle4
+{
+	width: 502px;
+    height: 8px;
+    margin-right:  245px;
+    background: #8F8F8F;
+    border-radius: 14px;
+}
+
+.rectangle5
+{
+	width: 580px;
+    height: 8px;
+    margin-left:  1090px;
+    background: #FFFFFF;
+    border-radius: 14px;
+}
+.smallrectangle5
+{
+	width: 502px;
+    height: 8px;
+    background: #8F8F8F;
+    border-radius: 14px;
+}
+
+.rectangle6
+{
+	width: 580px;
+    height: 8px;
+    margin-left:  1090px;
+    background: #FFFFFF;
+    border-radius: 14px;
+}
+.smallrectangle6
+{
+	width: 352px;
+    height: 8px;
+    margin-right:  245px;
+    background: #8F8F8F;
+    border-radius: 14px;
+}
+
+.project
+{
+	width: 1920px;
+	height: 900px;
+	background-color: black;
+	
+	
+}
+.projectheader
+{
+	width: 415px;
+    height: 109px;
+    margin-left: 730px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 96px;
+    line-height: 112px;
+    text-align: center;
+    color: #FFFFFF;
+	padding-top: 52px;
+	padding-bottom: 56px;
+
+}
+
+.project1
+{
+	width: 560px;
+	height: 573px;
+    background-color: beige;
+	float: left;
+	
+}
+
+.project2
+{
+	width: 560px;
+    height: 573px;
+	float: left;
+	background-color: aqua;
+}
+.project3
+{
+	width: 560px;
+	height: 573px;
+	background-color:wheat;
+	float: left;
+}
+.projectall
+{
+	width: 1680px;
+	height: 573px;
+	background-color: red;
+	margin-left: 120px;
+	margin-top: 30px;
+	margin-bottom: 80px;
+	
+	
+}
+.contact
+{
+	width: 1920px;
+	height: 900px;
+	background-color: #2E2E2E;
+	
+	
+}
+.contact h1
+{
+	position: absolute;
+    width: 415px;
+    height: 90px;
+    margin-left: 730px;
+    margin-top:  36px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 96px;
+    line-height: 112px;
+    text-align: center;
+	color: white;
+}
+.contact1
+{
+	width: 400px;
+	height: 90px;
+    margin-left: 400px;
+	margin-top: 30px;
+	color: white;
+}
+.contact2
+{
+	width: 400px;
+	height: 90px;
+    margin-left: 400px;
+	margin-top: 30px;
+	color: white;
+}
+.contact3
+{
+	width: 400px;
+	height: 90px;
+    margin-left: 400px;
+	margin-top: 30px;
+	color: white;
+}
+.contact4
+{
+	width: 400px;
+	height: 90px;
+	margin-left: 400px;
+	margin-top: 30px;
+	color: white;
+}
+.contact01
+{
+	width: 200px;
+	height: 45px;
+	float: left;
+	margin-left: 30px;
+}
+.contact02
+{
+	width: 200px;
+	height: 45px;
+	float: left;
+	margin-left: 30px;
+	
+}
+.contact03
+{
+	width: 89px;
+	height: 89px;
+	float: left;
+}
+.contact02 h3
+{
+	font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+	
+}
+.contact01 h2
+{
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+
+	
+}
+.contactall
+{
+	width: 700px;
+	height: 500px;
+	padding-top: 300px;
+}
+.bigmessages
+{
+	width: 476px;
+    height: 406px;
+    margin-left: 1134px;
+	margin-top: -470px;
+    background: #525252;
+    border-radius: 52px;
+}
+.sendmessages
+{
+	width: 238px;
+    height: 81px;
+    margin-left:  1253px;
+	margin-top: 45px;
+    background: #525252;
+    border-radius: 40.5px;
+}
+.sendmessages1
+{
+	width: 170px;
+    height: 28px;
+	padding-left: 33px;
+	padding-top:  28px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 28px;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+
+
+
+
+
+
+
+
+
